@@ -50,7 +50,7 @@
 !
 !	print*,PIB_1D_T_Element(m,l,n1)
 900 format (1X,'Kinetic energy matrix element ',I5,',',I5,' is ',F12.5,'.') 
-	write(*, 900) n1, n1, PIB_1D_T_Element(m,l,n1,n2)
+	write(*, 900) n1, n3, PIB_1D_T_Element(m,l,n1,n2)
 !
 	End Program prgm_02_01
 !
